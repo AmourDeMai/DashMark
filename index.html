@@ -1,0 +1,42 @@
+<!-- 
+    DashMark 
+    HTML for Main Page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>DashMark</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/main.css">
+
+    <script src="./assets/FileSaver.min.js" defer="defer"></script>
+    <script src="./assets/DashMark.js" defer="defer"></script>
+    <script src="./assets/marked.js" defer="defer"></script>
+</head>
+
+<body>
+    <h1>DashMark Documentation</h1>
+    <input id='color' class="textField" placeholder="(Optional) Theme Color" title="Optional Color" type="text" />
+    <input id="fileInput" type="file" style="display:none;" />
+    <input id="uploadButton" class="button" readonly value="Upload Markdown" />
+    <span id="done" style="display:none;margin-left:1em;">✅</span>
+    <hr>
+    <p>Supported in content area:</p>
+        <ul>
+            <li>Heading 3 (h3)</li>
+            <li>Heading 4 (h4)</li>
+            <li>Heading 5 (h5)</li>
+            <li>Heading 6 (h6)</li>
+            <li>Regular text</li>
+            <li>Code snippets</li>
+            <li>URLs</li>
+        </ul>
+    <hr>
+    <a href="https://github.com/nextseto?tab=repositories" target="_blank"><img src="./assets/nextseto.png" class="credit" align="right"></a>
+</body>
+
+</html>
