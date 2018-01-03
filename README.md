@@ -7,6 +7,6 @@ Your work with a Dash of Markdown ✏️⭐️
 ## To Run
 
 1. Download the repository
-2. Run index.html
-3. Upload Markdown
+2. Run `index.html`
+3. Upload Markdown into the page
 4. Your browser will automatically download a formatted HTML version of your Markdown documentation
